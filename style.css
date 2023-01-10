@@ -1084,3 +1084,7 @@ h2 {
 :focus {
     border: 2px solid black;
 }
+
+.col-sm-12 img {
+    border-radius: 25px;
+}
