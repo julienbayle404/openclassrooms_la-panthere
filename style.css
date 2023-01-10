@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline: transparent!important;
 }
 
 a:hover {
@@ -134,7 +134,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -445,7 +445,7 @@ nav .caret {
 }
 
 button {
-    outline: none!important;
+    outline: transparent!important;
 }
 
 .btn-rd {
@@ -702,7 +702,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #000!important;
 }
 
 h4 {
@@ -751,7 +751,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1026,7 +1026,7 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #fff!important;
+    color: #000!important;
     font-weight: 600;
 }
 
@@ -1079,4 +1079,8 @@ h2 {
 
 .row-footer {
     margin-top: 35px;
+}
+
+:focus {
+    border: 2px solid black;
 }
